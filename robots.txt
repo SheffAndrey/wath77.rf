@@ -1,0 +1,8 @@
+User-agent: *                  # Создаем секцию правил для роботов. * значит для всех
+							   # роботов. Чтобы указать секцию правил для отдельного
+							   # робота, вместо * укажите его имя: GoogleBot, Yandex.
+Disallow: /manager/
+Host: http://ремонт-часов77.рф
+Sitemap: http://ремонт-часов77.рф/sitemap.xml
+User-agent: Yandex
+Clean-param: ref /some_dir/get_book.pl
